@@ -5,13 +5,13 @@ plugins {
 
 android {
     namespace = "org.wbftw.weil.passwordgenerator"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "org.wbftw.weil.passwordgenerator"
         minSdk = 22
-        targetSdk = 34
-        versionCode = 1
+        targetSdk = 35
+        versionCode = 10000
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"

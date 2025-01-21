@@ -1,13 +1,13 @@
-package org.wbftw.weil.passwordgenerator.ui.gallery
+package org.wbftw.weil.passwordgenerator.ui.about
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class GalleryViewModel : ViewModel() {
+class AboutViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is gallery Fragment"
+        value = "Password Generator Android App by Weil Jimmer @ White Birch Forum Team (c) https://weils.net/"
     }
     val text: LiveData<String> = _text
 }
