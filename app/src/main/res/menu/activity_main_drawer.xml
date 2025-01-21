@@ -13,4 +13,11 @@
             android:icon="@drawable/baseline_copyright_24"
             android:title="@string/menu_about" />
     </group>
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_github"
+            android:icon="@drawable/baseline_web_24"
+            android:title="@string/menu_source_code" />
+
+    </group>
 </menu>

@@ -9,4 +9,12 @@
 
     <string name="menu_home">Password Generator</string>
     <string name="menu_about">About</string>
+    <string name="code_copy">Copy</string>
+    <string name="code_generate_random_password">Generate Random Password</string>
+    <string name="code_generate_fixed_password">Generate Fixed Password</string>
+    <string name="code_please_check_at_least_1_type">Please check at least 1 type.</string>
+    <string name="code_please_enter_master_password">Please enter master password!</string>
+    <string name="code_generated_password">Generated Password</string>
+    <string name="code_master_password">Master Password</string>
+    <string name="menu_source_code">Source Code</string>
 </resources>

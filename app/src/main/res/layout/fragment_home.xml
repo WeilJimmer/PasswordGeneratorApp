@@ -30,6 +30,7 @@
                     />
 
                 <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/edit_text_length"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="16sp"
@@ -38,6 +39,7 @@
                     />
 
                 <com.google.android.material.slider.Slider
+                    android:id="@+id/slider_length"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -64,18 +66,22 @@
                         android:layout_height="match_parent">
 
                         <CheckBox
+                            android:id="@+id/checkbox_uppercase"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:checked="true"
                             android:text="Uppercase [A-Z]"
                             android:textSize="16sp"
                             />
 
 
                         <CheckBox
+                            android:id="@+id/checkbox_lowercase"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:checked="true"
                             android:text="Lowercase [a-z]"
                             android:textSize="16sp"
                             />
@@ -87,17 +93,21 @@
                         android:layout_height="match_parent">
 
                         <CheckBox
+                            android:id="@+id/checkbox_number"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:checked="true"
                             android:text="Number [0-9]"
                             android:textSize="16sp"
                             />
 
                         <CheckBox
+                            android:id="@+id/checkbox_special_characters"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:checked="true"
                             android:text="Special Characters"
                             android:textSize="16sp"
                             />
@@ -109,6 +119,7 @@
                         android:layout_height="match_parent">
 
                         <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/edit_text_custom_characters"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -123,6 +134,7 @@
             </HorizontalScrollView>
 
             <CheckBox
+                android:id="@+id/checkbox_method_fixed"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Generate Fixed Password"
@@ -131,15 +143,19 @@
 
 
             <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/text_input_layout_master_password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5sp"
-                android:layout_marginBottom="15sp">
+                android:layout_marginBottom="15sp"
+                android:visibility="gone"
+                tools:visibility="visible">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edit_text_master_password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Master Password"
+                    android:hint="@string/code_master_password"
                     android:inputType="textPassword"
                     />
 
@@ -147,9 +163,13 @@
 
 
             <LinearLayout
+                android:id="@+id/linear_layout_salt_version"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:visibility="gone"
+                tools:visibility="visible"
+                >
 
                 <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="0dp"
@@ -160,9 +180,13 @@
                     android:layout_marginRight="10sp">
 
                     <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edit_text_salt"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:singleLine="true"
+                        android:maxLines="1"
+                        android:maxLength="10000"
                         android:hint="Salt" />
 
                 </com.google.android.material.textfield.TextInputLayout>
@@ -175,10 +199,14 @@
                     android:layout_marginBottom="15sp">
 
                     <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edit_text_version"
                         android:layout_width="100dp"
                         android:layout_height="wrap_content"
                         android:hint="Version"
                         android:text="1"
+                        android:singleLine="true"
+                        android:maxLines="1"
+                        android:maxLength="10"
                         android:inputType="numberDecimal" />
 
                 </com.google.android.material.textfield.TextInputLayout>
@@ -193,20 +221,22 @@
 
                 <Button
                     style="@style/Widget.Material3.Button.UnelevatedButton"
+                    android:id="@+id/button_generate"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textSize="16sp"
                     android:layout_marginRight="10sp"
-                    android:text="Generate Random Password"
+                    android:text="@string/code_generate_random_password"
                     />
 
                 <Button
                     style="@style/Widget.Material3.Button.UnelevatedButton"
+                    android:id="@+id/button_copy"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="16sp"
-                    android:text="Copy"
+                    android:text="@string/code_copy"
                     />
 
             </LinearLayout>
@@ -214,16 +244,18 @@
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10sp">
+                android:layout_marginTop="10sp"
+                android:fontFamily="monospace"
+                android:hint="@string/code_generated_password"
+                android:inputType="textMultiLine"
+                android:singleLine="false">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edit_text_generated_password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Generated Password"
-                    android:textSize="24sp"
-                    android:singleLine="true"
-                    android:textIsSelectable="true"
-                    />
+                    android:fontFamily="monospace"
+                    android:textSize="24sp" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
