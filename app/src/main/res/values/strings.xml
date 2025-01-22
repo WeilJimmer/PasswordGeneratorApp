@@ -3,7 +3,7 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Password Generator</string>
-    <string name="nav_header_subtitle">version:1.0</string>
+    <string name="nav_header_subtitle">version:1.0.0.01</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_reset_default">Reset to default</string>
 

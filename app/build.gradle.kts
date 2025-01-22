@@ -11,8 +11,8 @@ android {
         applicationId = "org.wbftw.weil.passwordgenerator"
         minSdk = 22
         targetSdk = 35
-        versionCode = 10000
-        versionName = "1.0"
+        versionCode = 10001
+        versionName = "1.0.0.01"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -36,6 +36,13 @@ android {
     buildFeatures {
         viewBinding = true
     }
+    dependenciesInfo {
+        // Disables dependency metadata when building APKs.
+        includeInApk = false
+        // Disables dependency metadata when building Android App Bundles.
+        includeInBundle = false
+    }
+
 }
 
 dependencies {

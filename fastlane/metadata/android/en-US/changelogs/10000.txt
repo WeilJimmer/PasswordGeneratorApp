@@ -1,6 +1,6 @@
 # Changelog
 
-## [v1.0.0] - Latest
+## [v1.0.0]
 
 ### Added
 - **Customizable Password Options**:  
