@@ -1,0 +1,23 @@
+# Changelog
+
+## [v1.0.0] - Latest
+
+### Added
+- **Customizable Password Options**:  
+  Easily generate passwords with customizable options, including:  
+  - Numbers  
+  - Uppercase letters  
+  - Lowercase letters  
+  - Special characters  
+
+- **Fixed High-Strength Passwords**:  
+  Generate consistent and secure passwords by combining:  
+  - A master password  
+  - A unique salt  
+  - A version number  
+
+- **Enhanced Security**:  
+  Utilizes cryptographic techniques to ensure passwords are highly secure and unique.
+
+- **User-Friendly Design**:  
+  Designed with an intuitive interface for quick and easy password customization and generation.

@@ -1,0 +1,2 @@
+This app provides a highly customizable and secure way to generate passwords for all your needs.
+It’s lightweight, user-friendly, and ensures maximum security without compromising ease of use.
