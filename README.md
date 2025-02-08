@@ -1,10 +1,19 @@
-# Password Generator for Android  
+# Password Generator for Android
+![GitHub License](https://img.shields.io/github/license/WeilJimmer/PasswordGeneratorApp)
+![GitHub Release](https://img.shields.io/github/v/release/WeilJimmer/PasswordGeneratorApp)
+![F-Droid Version](https://img.shields.io/f-droid/v/org.wbftw.weil.passwordgenerator)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/WeilJimmer/PasswordGeneratorApp/total)
+![GitHub Repo stars](https://img.shields.io/github/stars/WeilJimmer/PasswordGeneratorApp)
 
 **Free, ad-free, open-source simple password generator for Android.**  
 
 This app provides a highly customizable and secure way to generate passwords for all your needs. It’s lightweight, user-friendly, and ensures maximum security without compromising ease of use.  
 
-## Features  
+## Downloads
+
+<a href="https://github.com/WeilJimmer/PasswordGeneratorApp/releases"><img src="https://wbreader.weil.app.wbftw.org/images/get-it-on-github.png" alt="Get it on Github" height="80"></a><a href="https://f-droid.org/packages/org.wbftw.weil.passwordgenerator/"><img src="https://wbreader.weil.app.wbftw.org/images/get-it-on-fdroid.png" alt="Get it on Fdroid" height="80"></a>
+
+## Features
 
 ### Customizable Password Options  
 Easily generate passwords by selecting the following options:  
