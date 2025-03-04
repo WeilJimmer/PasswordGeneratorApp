@@ -13,6 +13,14 @@ This app provides a highly customizable and secure way to generate passwords for
 
 <a href="https://github.com/WeilJimmer/PasswordGeneratorApp/releases"><img src="https://wbreader.weil.app.wbftw.org/images/get-it-on-github.png" alt="Get it on Github" height="80"></a><a href="https://f-droid.org/packages/org.wbftw.weil.passwordgenerator/"><img src="https://wbreader.weil.app.wbftw.org/images/get-it-on-fdroid.png" alt="Get it on Fdroid" height="80"></a>
 
+## Browser Extension
+
+Enhance your browsing experience with our extension, available for:
+- [Github](https://github.com/WeilJimmer/PasswordGeneratorBrowserExtension/)
+- Chrome Store (soon)
+- [Firefox Add-ons](https://addons.mozilla.org/zh-TW/firefox/addon/wbft-password-generator/)
+- Edge Store (soon)
+
 ## Features
 
 ### Customizable Password Options  
