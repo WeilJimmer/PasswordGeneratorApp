@@ -19,9 +19,9 @@ This app provides a highly customizable and secure way to generate passwords for
 
 Enhance your browsing experience with our extension, available for:
 - [Github](https://github.com/WeilJimmer/PasswordGeneratorBrowserExtension/)
-- Chrome Store (soon)
+- [Chrome Store](https://chromewebstore.google.com/detail/password-generator/nebmcdpmbglgpmapfkejofecgeclcmok)
 - [Firefox Add-ons](https://addons.mozilla.org/zh-TW/firefox/addon/wbft-password-generator/)
-- Edge Store (soon)
+- [Edge Store](https://microsoftedge.microsoft.com/addons/detail/njgpfdkllkoidcndpopeggheljpgkefg)
 
 ## Features
 
