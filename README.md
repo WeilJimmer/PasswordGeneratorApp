@@ -18,10 +18,13 @@ This app provides a highly customizable and secure way to generate passwords for
 ## Browser Extension
 
 Enhance your browsing experience with our extension, available for:
-- [Github](https://github.com/WeilJimmer/PasswordGeneratorBrowserExtension/)
-- [Chrome Store](https://chromewebstore.google.com/detail/password-generator/nebmcdpmbglgpmapfkejofecgeclcmok)
-- [Firefox Add-ons](https://addons.mozilla.org/zh-TW/firefox/addon/wbft-password-generator/)
-- [Edge Store](https://microsoftedge.microsoft.com/addons/detail/njgpfdkllkoidcndpopeggheljpgkefg)
+
+<a href="https://microsoftedge.microsoft.com/addons/detail/njgpfdkllkoidcndpopeggheljpgkefg"><img src="https://pgbe.weil.app.wbftw.org/edge.png" alt="Get it on Edge" height="60"></a>
+<a href="https://addons.mozilla.org/zh-TW/firefox/addon/wbft-password-generator/"><img src="https://pgbe.weil.app.wbftw.org/firefox.png" alt="Get it on Firefox" height="60"></a>
+<a href="https://chromewebstore.google.com/detail/password-generator/nebmcdpmbglgpmapfkejofecgeclcmok"><img src="https://pgbe.weil.app.wbftw.org/chrome.png" alt="Get it on Chrome" height="60"></a>
+<a href="https://addons.opera.com/zh-tw/extensions/details/password-generator-8/"><img src="https://pgbe.weil.app.wbftw.org/opera.png" alt="Get it on Opera" height="60"></a>
+
+or [Github Releases](https://github.com/WeilJimmer/PasswordGeneratorBrowserExtension/releases)
 
 ## Features
 
